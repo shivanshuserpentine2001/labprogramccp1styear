@@ -1,3 +1,4 @@
+//SWAPPING TWO NO USING POINTERS AND POINTERS are  IP,DP*
 #include <stdio.h>
 #include <stdlib.h>
 
