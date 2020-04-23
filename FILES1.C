@@ -11,7 +11,7 @@
 for(i=0;i<=5;i++)
 {printf("enter data to be copied to file");
     scanf("%d",&data[i]);
-fprintf(fp,"%d",data[i]);
+fprintf(fp,"%d \t",data[i]);
 }
 printf("the data was inputed into file\n");
    for(i=0;i<=5;i++)
