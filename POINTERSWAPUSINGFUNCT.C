@@ -1,3 +1,4 @@
+// SWAPPING INTERGER USING POINTER AND MAINLLY CALL BY REFERENCE
 #include <stdio.h>
 #include <stdlib.h>
 int interchange();
