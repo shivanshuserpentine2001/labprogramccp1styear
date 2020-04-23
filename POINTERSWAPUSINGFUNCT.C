@@ -1,20 +1,18 @@
 // SWAPPING INTERGER USING POINTER AND MAINLLY CALL BY REFERENCE
 #include <stdio.h>
 #include <stdlib.h>
-int interchange();
+void interchange(int *,int *);
 int main()
-{   int n1 ,*ip;
-    int n2, *dp;
+{   int n1 ;
+    int n2 ;
     int temp;
 
     printf("enter no 1(n1):");
     scanf("%d",&n1);
     printf("enter no 2(n2):");
     scanf("%d",&n2);
-    ip=&n1;
-    dp=&n2;
-   interchange(ip,dp);}
-int interchange( int *a , int *b)
+   interchange(&n1,&n2);}
+void interchange( int *a , int *b)
  { int temp;
      temp=a;
     a=b;
