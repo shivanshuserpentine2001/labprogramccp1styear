@@ -15,7 +15,7 @@ int main()
 void interchange( int *a , int *b)
  { int temp;
      temp=*a;
-    *a=b;
+    *a=*b;
     *b=temp;
     printf("the given input was swapped in output");
     printf("\nn1:%d \nn2:%d",*a,*b);
